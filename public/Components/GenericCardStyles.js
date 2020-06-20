@@ -3,8 +3,7 @@ import {makeStyles} from '@material-ui/core';
 const useStyles = () => {
     return makeStyles((theme) => ({
         genericCard: {
-            width: window.innerWidth,
-            height: window.innerHeight*(16/17),
+            width: "100%",
             backgroundColor: '#add8e6'
 
         },

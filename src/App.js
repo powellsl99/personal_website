@@ -1,12 +1,13 @@
 import React from 'react';
-import { Button } from "@material-ui/core"
-import CardViewController from './Components/CardViewController.js';
+import Navbar from "./Components/Navbar"
+import { CssBaseline } from '@material-ui/core';
 
 function App() {
   return (
-    <div>
-       <CardViewController></CardViewController>
-    </div>
+    <>
+    <CssBaseline/>
+       <Navbar/>
+    </>
   );
 }
 

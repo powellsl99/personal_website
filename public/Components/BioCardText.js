@@ -15,7 +15,6 @@ const BioCardText = () => {
                     <IconButton 
                         className={classes.content} 
                         href="mailto: powellsl99@gmail.com?subject=Job Offer!&body=You can put your offer here :)"
-                        target="_blank"
                     >
                         <MailOutlineIcon className={classes.whiteIconButton}/>
                     </IconButton>
